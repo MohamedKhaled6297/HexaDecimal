@@ -3,7 +3,7 @@ package hexdecimal;
 public class HexDecimal {
 
     public static void main(String[] args) {
-        String s = "AB8C";
+        String s = "AB8CD";
         int decimal = 0;
         for (int i = 0, j = s.length() - 1; i < s.length() && j >= 0; i++, j--) {
             decimal += getDecimalChar2(s.charAt(j)) * (int) (Math.pow(16, i));
